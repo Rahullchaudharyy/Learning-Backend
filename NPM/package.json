@@ -1,0 +1,26 @@
+{
+  "name": "rahul",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "index.js",
+    "dev":"nodemon index.js"
+    
+  },
+  "keywords": [],
+  "author": "rahul",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/@Rahullchaudharyy/Rahul-Chaudhary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/@Rahullchaudharyy/Rahul-Chaudhary/issues"
+  },
+  "homepage": "https://github.com/@Rahullchaudharyy/Rahul-Chaudhary#readme",
+  "description": ""
+}
