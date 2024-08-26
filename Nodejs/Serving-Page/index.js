@@ -21,7 +21,7 @@ const server = http.createServer((req, res) => {
       }
     });
   } else {
-    res.writeHead(404, "BAD", { "Content-Type": "text/html" });
+    res.writeHead(404, "BAD", { "Content-Type": "text/html" }); 
     res.end("<h2>Opps !! 404 page not found</h2>");
   }
 });
