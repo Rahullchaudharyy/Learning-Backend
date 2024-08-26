@@ -1,4 +1,5 @@
 import express from "express";
+import student from './routes/student.js'
 
 const app = express();
 
@@ -18,10 +19,12 @@ const app = express();
  // Instead of the the code we have written in the top we can write like this :- 
  
 
-app.route("/student").get((req, res) => res.send("All students"))
-.post((req,res)=>res.send("Add student"))
-.put((req,res)=>res.send("Update student"))
-.delete((req,res)=>res.send("delete student"))
+// app.route("/student").get((req, res) => res.send("All students"))
+// .post((req,res)=>res.send("Add student"))
+// .put((req,res)=>res.send("Update student"))
+// .delete((req,res)=>res.send("delete student"))
+
+app.use('/students',student)
 
 app.listen(3000, () => {
   console.log("Server Started Now!!!");
