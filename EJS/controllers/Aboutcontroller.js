@@ -1,5 +1,9 @@
+
+ import bodyParser from 'body-parser'
+
 const AboutController = (req,res)=>{
-    res.send("about")
+    const {name,Age,Education} = req.body;
+    res.send(`${name},${Age},${Education}`);
 }
 
 export default AboutController

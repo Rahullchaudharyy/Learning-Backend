@@ -16,7 +16,17 @@
 <h1>userId: <%= userid %> </h1> 
         <% } else if(userid===40){ %>
             <h1>UserId:<%= userid %></h1>
-            <% } %>
+            <% }%>
+
+
+            <!-- Loops In EJS -->
+
+            <% for(let i = 0 ; i<=10;i++){ %>
+
+                <h1>This Is written By loop <%= i %></h1>
+                <% let Current = new Date() %>
+                <%= Current %>
+                <% } %>
 
 </body>
 </html>
