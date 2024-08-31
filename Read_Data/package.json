@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0",
+    "nodemon": "^3.1.4"
+  },
+  "name": "read_data",
+  "version": "1.0.0",
+  "main": "Read.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon Read.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
