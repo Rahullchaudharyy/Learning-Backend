@@ -1,0 +1,16 @@
+{
+  "name": "backend-chai",
+  "version": "1.0.0",
+  "description": "Learning backend with chai or code\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "rahul chaudhary",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
