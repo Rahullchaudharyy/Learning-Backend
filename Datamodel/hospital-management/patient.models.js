@@ -39,6 +39,6 @@ const patientSchema = new mongoose.Schema({
    }
 
 },{timestamps:true})
-
+// All the practice has been done under the presence of mind 🙂
 
 export const Patient  = mongoose.model("Patient",patientSchema)
