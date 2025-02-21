@@ -1,2 +1,4 @@
 Chai_Or_Deplopy/.env
 *node_modules
+
+*.env
